@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- font -->
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+     <!-- Material Icon -->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+       rel="stylesheet">
+       <!-- swiper -->
+       <link rel="stylesheet" href="css/swiper-bundle.min.css">
+       <!-- custom styling -->
+       <link rel="stylesheet" href="./css/style.css">
+    <title>B:B Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="hero">
+          <div class="profile-img">
+          </div>
+          <div class="profile-info">
+            <div class="role">
+              <div class="name">
+                <h2>Bamidele Barakat</h2>
+                <p>Front-end developer</p>
+              </div>
+              <div class="contact">
+                <p> <span class="material-icons">&#xe0be;</span> bamideleaduke@gmail.com</p>
+                <p><span class="material-icons">&#xe0b0;</span>(+234) 000 000 000</p>
+              </div>
+            </div>
+            <div class="bio">
+              <p>Barakat is a dedicated individual that embodies the passion and drive to positively impact every environment she find herself. She has a passion for software deveopment (Frontend) and loves to create a beautiful wedsites designs. She is a dedicated and hardworking with a determination  to work effectly to achieve set out goals. She is a great team player with a proactive attitude suitable for any situation </p>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="skills">
+          <h2>FRONT END</h2>
+         <div class="skill">
+          <div class="skill-item">
+            <label for="react">HTML</label>
+            <div class="level">
+              <div class="degree"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <label for="react">CSS</label>
+            <div class="level">
+              <div class="degree high"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <label for="react">JAVASCRIPT</label>
+            <div class="level">
+              <div class="degree low"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <label for="react">REACT NATIVE</label>
+            <div class="level">
+              <div class="degree low"></div>
+            </div>
+        </div>
+          <div class="skill-item">
+            <label for="react">GIT & GITHUB</label>
+            <div class="level">
+              <div class="degree high"></div>
+            </div>
+        </div>
+          <div class="skill-item">
+            <label for="react">TAILWIND</label>
+            <div class="level">
+              <div class="degree"></div>
+            </div>
+        </div>
+         </div>
+        </section>
+
+        <section class="projects">
+          <div class="projectFilter">
+            <h2>Projects (<span class="number">3</span>)</h2>
+            <div id="filterBtn">
+              <button class="btn active" onclick="filterSelection('all')">All</button>
+              <button class="btn" onclick="filterSelection('html-css')" >Html & Css</button>
+              <button class="btn" onclick="filterSelection('javascript')">Javascript</button>
+              <button class="btn" onclick="filterSelection('tailwind')">Tailwind</button>
+              <button class="btn" onclick="filterSelection('bootstrap')">Bootstrap</button>
+            </div>
+          </div>
+
+          <div  class="filter-slide">
+            <div class="slide-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+                       
+                        <div class="card swiper-slide html-css">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="asset/404-error.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="pname">Error 404</h2>
+                                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quod, excepturi a nemo accusamus officiis ab mollitia ut accusantium soluta Lorem, ipsum dolor. </p>
+    
+                                <div class="demo-btn">
+                                   <a class="dbtn" href="https://404-gateway-error.netlify.app/" target="_blank">Demo</a>
+                                    <a class="cbtn" href="https://github.com/Bamideleaduke/404-Gateway-Error" target="_blank">Code</a>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide html-css">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="asset/team.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="pname">Crew Profile</h2>
+                                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quod, excepturi a nemo accusamus officiis ab mollitia ut accusantium soluta Lorem, ipsum dolor.</p>
+    
+                                <div class="demo-btn">
+                                    <a class="dbtn" href="https://crew-member.netlify.app/" target="_blank">Demo</a>
+                                    <a class="cbtn" href="https://github.com/Bamideleaduke/Crew-Profile" target="_blank">code</a>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide javascript">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="asset/furniture.png"alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="pname">Modern Interior</h2>
+                                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quod, excepturi a nemo accusamus officiis ab mollitia ut accusantium soluta Lorem, ipsum dolor.</p>
+    
+                                <div class="demo-btn">
+                                    <a class="dbtn" href="https://mo-dern-interior.netlify.app/" target="_blank">Demo</a>
+                                    <a class="cbtn" href="https://github.com/Bamideleaduke/Modern-Interior" target="_blank">code</a>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide html-css">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="asset/recipe.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="pname">Recipe Page</h2>
+                                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quod, excepturi a nemo accusamus officiis ab mollitia ut accusantium soluta Lorem, ipsum dolor.</p>
+    
+                                <div class="demo-btn">
+                                    <a class="dbtn" href="https://blog-recipe-cheeseball.netlify.app/" target="_blank">Demo</a>
+                                    <a class="cbtn" href="https://github.com/Bamideleaduke/Recipe-Blog" target="_blank">code</a>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide html-css">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="asset/nature.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="pname">My Gallery</h2>
+                                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quod, excepturi a nemo accusamus officiis ab mollitia ut accusantium soluta Lorem, ipsum dolor.</p>
+    
+                                <div class="demo-btn">
+                                    <a class="dbtn" href="https://mygallery-bb.netlify.app/" target="_blank">Demo</a>
+                                    <a class="cbtn" href="https://github.com/Bamideleaduke/My-Gallery" target="_blank">code</a>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide html-css javascript">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="asset/checkout.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="pname">Checkout Page</h2>
+                                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quod, excepturi a nemo accusamus officiis ab mollitia ut accusantium soluta Lorem, ipsum dolor.</p>
+    
+                                <div class="demo-btn">
+                                    <a class="dbtn" href="https://checkout-pge.netlify.app/" target="_blank" >Demo</a>
+                                    <a class="cbtn" href="https://github.com/Bamideleaduke/Checkout-page" target="_blank">code</a>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide tailwind javascript ">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="asset/home-page.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="pname">Edie Home Page</h2>
+                                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quod, excepturi a nemo accusamus officiis ab mollitia ut accusantium soluta Lorem, ipsum dolor.</p>
+    
+                                <div class="demo-btn">
+                                    <a class="dbtn" href="https://edie-page.netlify.app/" target="_blank">Demo</a>
+                                    <a class="cbtn" href="https://github.com/Bamideleaduke/edie-homepage" target="_blank">code</a>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide bootstrap javascript ">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="asset/inbook.png" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="pname">Inbook</h2>
+                                <p class="description">Hackathon project in collaboration with my team produced a website that can generate invoice, scan and upload receipt and help SMEs keep track of their inventory and spend less time on administrative tasks called Inbook. (desktop view only)</p>
+    
+                                <div class="demo-btn">
+                                    <a class="dbtn" href="https://inbook-git.netlify.app/" target="_blank">Demo</a>
+                                    <a class="cbtn" href="https://github.com/Bamideleaduke/Inbook" target="_blank">code</a>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div> 
+        </section>
+        
+        <section class="cert">
+          <h2>Certification/Experience</h2>
+          <div class="certificate">
+            <div class="certItem">
+              <div class="certImg">
+                <img src="./asset/learn-to-code.png" alt="certificate">
+              </div>
+              <div class="certDetails">
+                <h3 class="pname">Frontend Development Certification</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, </p>
+              </div>
+            </div>
+            <div class="certItem">
+              <div class="certImg">
+                <img src="./asset/quote-generator.png" alt="certificate">
+              </div>
+              <div class="certDetails">
+                <h3 class="pname">Design Thinking and Story Telling</h3>
+                <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, modi!</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      
+          <footer>&copy;bamideleaduke_devchallenge.io</footer>
+
+          <!-- swiper -->
+        <script src="javascript/swiper-bundle.min.js"></script>
+        <!-- javascript -->
+        <script src="./javascript/index.js"></script>
+</body>
+</html>
